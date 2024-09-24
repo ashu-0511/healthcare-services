@@ -84,7 +84,7 @@ function App() {
               transition={{ type: "spring", damping: 25, stiffness: 500 }}
             >
               <button className="close-form" onClick={() => setShowForm(false)}>
-                <X />
+                <X size={20} />
               </button>
               <ServiceForm addService={addService} />
             </motion.div>

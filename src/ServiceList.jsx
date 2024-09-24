@@ -49,7 +49,7 @@ const ServiceList = ({ services, updateService, deleteService }) => {
                                 >
                                     <div className="edit-container">
                                         <button className="close-edit" onClick={() => setEditingService(null)}>
-                                            <X size={24} />
+                                            <X size={20} />
                                         </button>
                                         <ServiceForm
                                             serviceToEdit={editingService}

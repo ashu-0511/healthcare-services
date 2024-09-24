@@ -188,6 +188,7 @@ body {
   border: none;
   cursor: pointer;
   color: var(--text-color);
+  padding: 0px;
 }
 
 .service-form {
@@ -245,6 +246,7 @@ body {
   border: none;
   cursor: pointer;
   color: var(--text-color);
+  padding: 0px;
 }
 
 @media (max-width: 768px) {
